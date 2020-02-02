@@ -10,7 +10,7 @@
 
 ## Usage
 
-Download and extract precompiled binaries of [MTP tools](https://github.com/jabezwinston/mtp-tools/releases) for Windows
+Download and extract precompiled binaries of [MTP tools](https://github.com/jabezwinston/mtp-tools/releases/download/v1.1.16/mtp-tools_v1.1.16_win32.zip) for Windows
 
 |         Operation        |   Command                                                   |
 |--------------------------|:------------------------------------------------------------|
@@ -28,3 +28,9 @@ Download and extract precompiled binaries of [MTP tools](https://github.com/jabe
 |                          | `mtp-connect --newfolder <foldername>`                      |
 | Create sub-folder        | `mtp-newfolder <foldername> <parentfolder_id> <storage_id>` |
 | Format device            | `mtp-format`                                                |
+
+## Other docs
+
+- Detailed information can be found in [DETAILED_USAGE.md](DETAILED_USAGE.md)
+
+- Instruction on compiling `mtp-tools` from source code are available in [COMPILING.md](COMPILING.md)
