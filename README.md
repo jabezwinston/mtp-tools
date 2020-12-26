@@ -10,7 +10,7 @@
 
 ## Usage
 
-Download and extract precompiled binaries of [MTP tools](https://github.com/jabezwinston/mtp-tools/releases/download/v1.1.17/mtp-tools_v1.1.17_win32.zip) for Windows
+Download and extract precompiled binaries of [MTP tools](https://github.com/jabezwinston/mtp-tools/releases/download/v1.1.18/mtp-tools_v1.1.18_win32.zip) for Windows
 
 |         Operation        |   Command                                                   |
 |--------------------------|:------------------------------------------------------------|
