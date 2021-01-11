@@ -1,9 +1,11 @@
 # Using `MTP tools` in Windows
+![Output](mtp-tools.gif)
 
 ## Replace MTP driver by WinUSB driver
 - Download [Zadig](https://zadig.akeo.ie/)
 - Open **Zadig** and select **Options &rarr; List All Devices**.
 - Select your Mobile phone from list of devices and install **WinUSB (v6.1.7600.xxxxx)** driver by clicking **Replace Driver**
+
 ![Output](install_winusb_driver.png)
 
 ---
