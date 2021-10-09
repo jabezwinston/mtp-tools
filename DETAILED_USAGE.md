@@ -6,7 +6,7 @@
 ```
 $ mtp-detect
 
-libmtp version: 1.1.18
+libmtp version: 1.1.19
 
 Listing raw device(s)
 Device 0 (VID=22b8 and PID=2e82) is a Motorola Moto G (ID2).
@@ -67,7 +67,7 @@ OK.
 
 ```
 $ mtp-getfile 29 visa.pdf
-libmtp version: 1.1.18
+libmtp version: 1.1.19
 
 Device 0 (VID=22b8 and PID=2e82) is a Motorola Moto G (ID2).
 libusb_detach_kernel_driver() failed, continuing anyway...: No error
@@ -78,7 +78,7 @@ Progress: 606879 of 606879 (100%)
 ```
 ```
 $ mtp-connect --getfile visa.pdf visa.pdf
-libmtp version: 1.1.18
+libmtp version: 1.1.19
 
 Device 0 (VID=22b8 and PID=2e82) is a Motorola Moto G (ID2).
 libusb_detach_kernel_driver() failed, continuing anyway...: No error
@@ -94,7 +94,7 @@ Unknown options: visa.pdf  (100%)
 
 ```
 $ mtp-sendfile from_chennai.pdf from_chennai.pdf
-libmtp version: 1.1.18
+libmtp version: 1.1.19
 
 Device 0 (VID=22b8 and PID=2e82) is a Motorola Moto G (ID2).
 libusb_detach_kernel_driver() failed, continuing anyway...: No error
@@ -107,7 +107,7 @@ New file ID: 30
 ```
 ```
 $ mtp-connect --sendfile from_chennai.pdf from_chennai.pdf
-libmtp version: 1.1.18
+libmtp version: 1.1.19
 
 Device 0 (VID=22b8 and PID=2e82) is a Motorola Moto G (ID2).
 libusb_detach_kernel_driver() failed, continuing anyway...: No error
@@ -123,7 +123,7 @@ New file ID: 30
 ## Delete file in device : `mtp-delfile`, `mtp-connect`
 ```
 mtp-delfile -f calculator.h
-libmtp version: 1.1.18
+libmtp version: 1.1.19
 
 Device 0 (VID=22b8 and PID=2e82) is a Motorola Moto G (ID2).
 libusb_detach_kernel_driver() failed, continuing anyway...: No error
@@ -132,7 +132,7 @@ Deleting calculator.h
 ```
 ```
 mtp-delfile -n 18
-libmtp version: 1.1.18
+libmtp version: 1.1.19
 
 Device 0 (VID=22b8 and PID=2e82) is a Motorola Moto G (ID2).
 libusb_detach_kernel_driver() failed, continuing anyway...: No error
@@ -141,7 +141,7 @@ Deleting 18
 ```
 ```
 $ mtp-connect --delete calculator.h
-libmtp version: 1.1.18
+libmtp version: 1.1.19
 
 Device 0 (VID=22b8 and PID=2e82) is a Motorola Moto G (ID2).
 libusb_detach_kernel_driver() failed, continuing anyway...: No error
@@ -152,7 +152,7 @@ Delete calculator.h
 ### Create new folder : `mtp-newfolder`, `mtp-connect`
 ```
 $ mtp-newfolder winston 0 0
-libmtp version: 1.1.18
+libmtp version: 1.1.19
 
 Device 0 (VID=22b8 and PID=2e82) is a Motorola Moto G (ID2).
 libusb_detach_kernel_driver() failed, continuing anyway...: No error
@@ -161,7 +161,7 @@ New folder created with ID: 35
 ```
 ```
 $ mtp-connect --newfolder winston
-libmtp version: 1.1.18
+libmtp version: 1.1.19
 
 Device 0 (VID=22b8 and PID=2e82) is a Motorola Moto G (ID2).
 libusb_detach_kernel_driver() failed, continuing anyway...: No error
@@ -174,7 +174,7 @@ New folder created with ID: 35
 ### Create sub-folder : `mtp-newfolder`
 ```
 $ mtp-newfolder jabez 35 0
-libmtp version: 1.1.18
+libmtp version: 1.1.19
 
 Device 0 (VID=22b8 and PID=2e82) is a Motorola Moto G (ID2).
 libusb_detach_kernel_driver() failed, continuing anyway...: No error
@@ -188,7 +188,7 @@ New folder created with ID: 36
 
 ```
 $ mtp-format
-libmtp version: 1.1.18
+libmtp version: 1.1.19
 
 Device 0 (VID=22b8 and PID=2e82) is a Motorola Moto G (ID2).
 libusb_detach_kernel_driver() failed, continuing anyway...: No error

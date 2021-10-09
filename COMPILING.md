@@ -2,7 +2,7 @@
 - Install [Cygwin](https://www.cygwin.com/)
 - Install additional Cygwin packages by re-running Cygwin downloader (`setup-x86`/`setup-x86_64`) using the below command
 ```
-$ setup-x86 -q -P libtool,m4,automake,iconv-devel,gettext-devel,libusb1.0-devel,wget,gcc-g++,make,git
+$ setup-x86 -q -P libtool,m4,automake,libiconv-devel,gettext-devel,libusb1.0-devel,wget,gcc-g++,make,git
 ```
 - Launch Cygwin terminal
 - Get [libmtp](https://github.com/libmtp/libmtp)
@@ -16,7 +16,7 @@ $ git tag
 ...
 ...
 ...
-$ git checkout libmtp-1-1-18
+$ git checkout libmtp-1-1-19
 ```
 - Start compilation and install binaries
 ```
