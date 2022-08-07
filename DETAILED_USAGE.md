@@ -89,8 +89,8 @@ Unknown options: visa.pdf  (100%)
 ```
 ---
 ## Copy file into device : `mtp-sendfile`, `mtp-connect`
-- `mtp-getfile` expects **source file path in host**  and **destination file path in device** as arguments
-- `mtp-connect --getfile` expects **source file path in host** and **destination file path in device** as arguments
+- `mtp-sendfile` expects **source file path in host**  and **destination file path in device** as arguments
+- `mtp-connect --sendfile` expects **source file path in host** and **destination file path in device** as arguments
 
 ```
 $ mtp-sendfile from_chennai.pdf from_chennai.pdf
